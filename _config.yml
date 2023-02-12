@@ -5,7 +5,7 @@ permalink:           /:categories/:title
 title:               Blogs
 url:                 https://aman-godara.github.io/blogs
 paginate:            1
-baseurl:             ""
+baseurl:             "https://aman-godara.github.io/blogs"
 
 # Assets
 #
