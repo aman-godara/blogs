@@ -1,11 +1,14 @@
 # Permalinks
-permalink:           /:categories/:title
+#permalink:           /:categories/:title
 
 # Setup
+tagline:             'Aman Godara'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'Welcome to my Blogs!'
 title:               Blogs
 url:                 https://aman-godara.github.io/blogs
 paginate:            1
-baseurl:             "https://aman-godara.github.io/blogs"
+baseurl:             ""
 
 # Assets
 #
@@ -20,15 +23,17 @@ author:
   url:               https://aman-godara.github.io
 
 # Custom vars
-version:             2.1.0
+google_analytics_id: #UA-XXXX-Y
 github:
   repo:              https://github.com/aman-godara/blogs
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
 
 highlighter: rouge
+
+collections:
+  blogs:
+    output: true
+    permalink: /:path
